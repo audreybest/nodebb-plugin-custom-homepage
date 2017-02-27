@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-plugin-custom-homepage",
+  "name": "nodebb-plugin-recent-freeau",
   "version": "0.2.2",
   "description": "Allows you to define a custom homepage for NodeBB",
   "main": "./library.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-plugin-custom-homepage"
+    "url": "https://github.com/audreybest/nodebb-plugin-recent-freeau"
   },
   "keywords": [
     "nodebb",
@@ -18,21 +18,18 @@
     "labels"
   ],
   "author": {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+    "name": "audrey qin",
+    "email": "audreybest@gmail.com"
   },
   "nbbpm": {
     "compatibility": "^1.4.2"
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-plugin-custom-homepage/issues"
+    "url": "https://github.com/audreybest/nodebb-plugin-recent-freeau/issues"
   },
   "readme": "",
   "readmeFilename": "README.md",
-  "_id": "nodebb-plugin-custom-homepage@0.0.1",
-  "_from": "nodebb-plugin-custom-homepage@~0.0.1",
-  "dependencies": {
-    "validator": "^3.39.0"
-  }
+  "_id": "nodebb-plugin-recent-freeau@0.0.1",
+  "_from": "nodebb-plugin-recent-freeau@~0.0.1"
 }

@@ -1,18 +1,12 @@
 {
-	"id": "nodebb-plugin-custom-homepage",
-	"name": "Custom Homepage for NodeBB",
-	"description": "Allows you to define a custom homepage for NodeBB",
-	"url": "https://github.com/psychobunny/nodebb-plugin-custom-homepage",
+	"id": "nodebb-plugin-recent-freeau",
+	"name": "Recent Homepage for Nodebb",
+	"description": "Allows you to define a custom recent page for NodeBB",
+	"url": "https://github.com/audreybest/nodebb-plugin-recent-freeau",
 	"library": "./library.js",
 	"hooks": [
 		{
 			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"
-		},
-		{
-			"hook": "action:homepage.get:customHP", "method": "serveHomepage"
-		},
-		{
-			"hook": "filter:homepage.get", "method": "addListing"
 		}
 	],
 	"templates": "./templates"
